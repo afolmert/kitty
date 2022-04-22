@@ -50,7 +50,8 @@ linkcheck:
 website:
 	./publish.py --only website
 
-docs: man html
+docs: 
+	true
 
 
 develop-docs:
